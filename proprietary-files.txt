@@ -125,9 +125,6 @@ odm/etc/sensor/config/palawan_mtp_oplus_measurement.json
 odm/etc/sensor/config/palawan_mtp_oplus_smart_prox.json
 odm/etc/sensor/config/palawan_mtp_pocket.json
 
-# Fingerprint
-odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
-
 # Fingerprint Firmware
 odm/firmware/uff_face.b00
 odm/firmware/uff_face.b01

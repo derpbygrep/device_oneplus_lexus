@@ -46,6 +46,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.lexus
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm8650-common/common.mk)
 

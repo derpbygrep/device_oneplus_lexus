@@ -1,0 +1,8 @@
+on boot
+    chown system system /sys/kernel/oplus_display/hbm_max
+
+service vendor.fingerprint-lexus /vendor/bin/hw/android.hardware.biometrics.fingerprint-service.lexus
+    class late_start
+    user system
+    group system input uhid
+    shutdown critical
