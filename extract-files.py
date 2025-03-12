@@ -14,6 +14,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    'device/oneplus/lexus',
     'vendor/oneplus/sm8650-common',
     'hardware/qcom-caf/sm8650',
     'hardware/oplus'
@@ -23,7 +24,7 @@ blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
         .regex_replace('SystemCamera =  0;  0;  0;  0;  1;', 'SystemCamera =  0;  0;  0;  0;  0;'),
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
-        .add_needed("libshims_aidl_fingerprint_v3.oplus.so")
+        .add_needed("libshims_aidl_fingerprint_v3.lexus.so")
 }  # fmt: skip
 
 module = ExtractUtilsModule(
