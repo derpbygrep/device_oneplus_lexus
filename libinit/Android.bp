@@ -1,0 +1,14 @@
+//
+// Copyright (C) 2022 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libinit_oplus_lexus",
+    recovery_available: true,
+    shared_libs: [
+        "libbase",
+        "libfs_mgr",
+    ],
+    srcs: ["init_oplus_lexus.cpp"],
+}
