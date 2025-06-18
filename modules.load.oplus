@@ -25,7 +25,6 @@ oplus_bsp_tri_key.ko
 oplus_bsp_uff_fp_driver.ko
 oplus_camera_aw37004.ko
 oplus_chg_v2.ko
-oplus_network_esim.ko
 oplus_network_oem_qmi.ko
 oplus_network_rf_cable_monitor.ko
 oplus_nfc.ko

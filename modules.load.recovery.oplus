@@ -27,7 +27,6 @@ oplus_camera_aw37004.ko
 oplus_charger_present.ko
 oplus_chg_v2.ko
 oplus_ftm_mode.ko
-oplus_network_esim.ko
 oplus_network_oem_qmi.ko
 oplus_network_rf_cable_monitor.ko
 oplus_nfc.ko
