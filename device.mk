@@ -47,16 +47,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.ROW.prop \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.default.prop
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator.service.oplus-richtap
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oplus
-
-$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
-$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,INCLUDE_DIR,$(LOCAL_PATH)/vibrator/include)
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
