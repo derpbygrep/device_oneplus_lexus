@@ -87,6 +87,7 @@ BOARD_BOOTCONFIG := \
     androidboot.memcg=1 \
     androidboot.vendor.qspa=true \
     androidboot.usbcontroller=a600000.dwc3
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
 
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 BOARD_KERNEL_BASE := 0x00000000
