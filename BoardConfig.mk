@@ -31,6 +31,9 @@ AB_OTA_PARTITIONS += \
     vendor_boot \
     vendor_dlkm
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OP6131L1,lexus
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv9-a
