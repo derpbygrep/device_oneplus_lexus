@@ -19,7 +19,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/oneplus/sm8650-common',
+    'device/oneplus/lexus',
     'hardware/qcom-caf/sm8650',
     'hardware/qcom-caf/wlan',
     'hardware/oplus',
@@ -136,7 +136,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'sm8650-common',
+    'lexus',
     'oneplus',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
