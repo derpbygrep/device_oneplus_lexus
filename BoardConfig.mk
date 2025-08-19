@@ -102,7 +102,7 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image
 
-TARGET_KERNEL_SOURCE := kernel/oneplus/sm8650
+TARGET_KERNEL_SOURCE := kernel/oneplus/sm8635
 
 TARGET_KERNEL_ADDITIONAL_FLAGS := CONFIG_OPLUS_DEVICE_DTBS=y
 TARGET_KERNEL_CONFIG := \
@@ -120,7 +120,7 @@ BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/m
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery.pineapple $(DEVICE_PATH)/modules.load.recovery.oplus))
 BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD)
 
-TARGET_KERNEL_EXT_MODULE_ROOT := kernel/oneplus/sm8650-modules
+TARGET_KERNEL_EXT_MODULE_ROOT := kernel/oneplus/sm8635-modules
 TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/mmrm-driver \
     qcom/opensource/mm-drivers/hw_fence \
