@@ -11,7 +11,7 @@ include device/oneplus/sm8650-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/lexus
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP6131L1
+TARGET_OTA_ASSERT_DEVICE := OP6131L1,lexus
 
 # Display
 TARGET_SCREEN_DENSITY := 640
