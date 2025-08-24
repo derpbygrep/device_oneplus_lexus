@@ -125,6 +125,38 @@ odm/etc/sensor/config/palawan_mtp_oplus_measurement.json
 odm/etc/sensor/config/palawan_mtp_oplus_smart_prox.json
 odm/etc/sensor/config/palawan_mtp_pocket.json
 
+# Fingerprint Firmware
+odm/firmware/uff_face.b00
+odm/firmware/uff_face.b01
+odm/firmware/uff_face.b02
+odm/firmware/uff_face.b03
+odm/firmware/uff_face.b04
+odm/firmware/uff_face.b05
+odm/firmware/uff_face.b06
+odm/firmware/uff_face.b07
+odm/firmware/uff_face.b08
+odm/firmware/uff_face.mdt
+odm/firmware/uff_jv.b00
+odm/firmware/uff_jv.b01
+odm/firmware/uff_jv.b02
+odm/firmware/uff_jv.b03
+odm/firmware/uff_jv.b04
+odm/firmware/uff_jv.b05
+odm/firmware/uff_jv.b06
+odm/firmware/uff_jv.b07
+odm/firmware/uff_jv.b08
+odm/firmware/uff_jv.mdt
+odm/firmware/uff_spi.b00
+odm/firmware/uff_spi.b01
+odm/firmware/uff_spi.b02
+odm/firmware/uff_spi.b03
+odm/firmware/uff_spi.b04
+odm/firmware/uff_spi.b05
+odm/firmware/uff_spi.b06
+odm/firmware/uff_spi.b07
+odm/firmware/uff_spi.b08
+odm/firmware/uff_spi.mdt
+
 # Touchscreen firmware
 odm/firmware/tp/24881/FW_S3910_TIANMA.img
 odm/firmware/tp/24881/FW_S3910_TIANMA_FAE.img
