@@ -37,8 +37,8 @@ SensorProps SensorPropsInit(SensorProps props) {
             props.sensorType = FingerprintSensorType::HOME_BUTTON;
     }
 
-    props.sensorLocations[0].sensorLocationX = 736;
-    props.sensorLocations[0].sensorLocationY = 2670;
+    props.sensorLocations[0].sensorLocationX = 457;
+    props.sensorLocations[0].sensorLocationY = 2096;
 
     auto size = GetProperty("persist.vendor.fingerprint.optical.iconsize", "");
     if (!size.empty()) {
