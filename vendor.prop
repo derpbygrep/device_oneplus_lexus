@@ -7,7 +7,3 @@ ro.surface_flinger.set_touch_timer_ms=300
 
 # USB
 vendor.usb.product_string=OnePlus Nord 5
-
-# Fingerprint
-ro.vendor.fingerprint.type=udfps_optical
-ro.vendor.fingerprint.sensor_location=736|2670
