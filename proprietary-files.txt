@@ -106,9 +106,6 @@ odm/lib64/camera/com.qti.tuned.default.bin
 odm/lib64/camera/com.qti.tuned.lexusfront.bin
 odm/lib64/camera/com.qti.tuned.lexusmain.bin
 odm/lib64/camera/com.qti.tuned.lexuswide.bin
-odm/etc/camera/config/lexuswide
-odm/etc/camera/config/lexusfront
-odm/etc/camera/config/lexusmain
 
 # Charger firmware
 odm/firmware/fastchg/24881/charging_hyper_mode_config.txt
