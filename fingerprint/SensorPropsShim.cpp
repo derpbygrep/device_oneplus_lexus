@@ -38,7 +38,7 @@ SensorProps SensorPropsInit(SensorProps props) {
     }
 
     props.sensorLocations[0].sensorLocationX = 636;
-    props.sensorLocations[0].sensorLocationY = 2670;
+    props.sensorLocations[0].sensorLocationY = 2620;
 
     auto size = GetProperty("persist.vendor.fingerprint.optical.iconsize", "");
     if (!size.empty()) {
