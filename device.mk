@@ -38,11 +38,11 @@ PRODUCT_PACKAGES += \
 
 # Regional properties
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22825/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22825/build.default.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22877/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.EU.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22877/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22877/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.NA.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22877/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22877/build.default.prop
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/24881/build.EU.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/24881/build.IN.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/24881/build.NA.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/24881/build.ROW.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24881/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24881/build.default.prop
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
