@@ -1545,6 +1545,14 @@ vendor/gpu/kbc/unified_ksqs.bin
 odm/etc/nfc/libnfc-mtp-SN220.conf_22877:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_22877:vendor/etc/libnfc-nci.conf
 
+# OPLUS Charger
+odm/bin/hw/vendor.oplus.hardware.charger-V8-service
+odm/bin/hw/wlschgd
+odm/etc/init/vendor.oplus.hardware.charger-V8-service.rc
+odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
+odm/etc/charge.cfg
+odm/lib64/libGaiaClient_vnd.so
+
 # Sensors config
 odm/etc/sensor/config/json_list
 odm/etc/sensor/config/lexus_qrd_ois_system.json
