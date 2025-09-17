@@ -1442,6 +1442,11 @@ vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
+# Fingerprint
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl_v3.xml
+
 # Fingerprint firmware
 odm/firmware/uff_jv.b00
 odm/firmware/uff_jv.b01
