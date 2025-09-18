@@ -15,7 +15,6 @@ odm/lib/rfsa/adsp/aiboost/unsigned/libQnnHtpV75Skel.so;MODULE_SUFFIX=.unsigned.a
 odm/lib/rfsa/adsp/libCalculator_skel.so
 odm/lib/rfsa/adsp/libQnnHtpV73.so
 odm/lib/rfsa/adsp/libQnnHtpV73Skel.so
-odm/lib/rfsa/adsp/libQnnSaver.so
 odm/lib/rfsa/adsp/libSnpeHtpV73Skel.so
 odm/lib/rfsa/adsp/libSuperRawPost_skel.so
 odm/lib/rfsa/adsp/libaisr_skel.so
