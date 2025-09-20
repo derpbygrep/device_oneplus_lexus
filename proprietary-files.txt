@@ -1528,6 +1528,9 @@ odm/firmware/uff_spi.b07
 odm/firmware/uff_spi.b08
 odm/firmware/uff_spi.mdt
 
+# URCC
+odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so
+
 # Graphics (Adreno firmware)
 vendor/firmware/gen70900_aqe.fw
 vendor/firmware/gen70900_sqe.fw
