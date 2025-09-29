@@ -11,6 +11,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 # ADB
 WITH_ADB_INSECURE := true
 
+# Alert Slider
+TARGET_HAS_NO_ALERT_SLIDER := true
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
