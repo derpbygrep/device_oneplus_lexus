@@ -1687,29 +1687,6 @@ odm/etc/sensor/config/palawan_mtp_oplus_measurement.json
 odm/etc/sensor/config/palawan_mtp_oplus_smart_prox.json
 odm/etc/sensor/config/palawan_mtp_pocket.json
 odm/etc/sensor/sensor_config.json
-vendor/etc/sensors/config/palawan_bu52053nvx_0.json
-vendor/etc/sensors/config/palawan_default_sensors.json
-vendor/etc/sensors/config/palawan_dynamic_sensors.json
-vendor/etc/sensors/config/palawan_dynamic_sensors_template.json
-vendor/etc/sensors/config/palawan_fcal_mmc56x3x_0.json
-vendor/etc/sensors/config/palawan_irq.json
-vendor/etc/sensors/config/palawan_lps22df_0.json
-vendor/etc/sensors/config/palawan_lsm6dso_0.json
-vendor/etc/sensors/config/palawan_lsm6dso_1.json
-vendor/etc/sensors/config/palawan_mmc56x3x_0.json
-vendor/etc/sensors/config/palawan_mtp_lsm6dso_0.json
-vendor/etc/sensors/config/palawan_mtp_lsm6dso_1.json
-vendor/etc/sensors/config/palawan_mtp_mmc56x3x_0.json
-vendor/etc/sensors/config/palawan_power_0.json
-vendor/etc/sensors/config/palawan_qrd_lsm6dso_0.json
-vendor/etc/sensors/config/palawan_qrd_mmc56x3x_0.json
-vendor/etc/sensors/config/palawan_qrd_tmd2755_0.json
-vendor/etc/sensors/config/palawan_qsh_ble_0.json
-vendor/etc/sensors/config/palawan_sx932x_0.json
-vendor/etc/sensors/config/palawan_tmd2755_0.json
-vendor/etc/sensors/config/palawan_vertigo_lsm6dso_0.json
-vendor/etc/sensors/config/palawan_vertigo_lsm6dso_1.json
-vendor/etc/sensors/config/palawan_vertigo_mmc56x3x_0.json
 
 # Touchscreen firmware
 odm/firmware/tp/24881/FW_S3910_TIANMA.img
